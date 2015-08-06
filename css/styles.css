@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.alertMsg {
+    transition: 900ms;
+}
+
+.squareCol {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+#result {
+    margin-top: 30px;
+}
+
+h1 {
+    color: #e2222c;
+    padding: 40px 0;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+tr:hover {
+    background: #ffe8d0;
+}

@@ -1,10 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-  <h1>Hello</h1>
+    <div class="container">
+        <h1>hexadeсimal to rgb() converter</h1>
+        <div class="alert alert-danger hidden" id="alertMsg">
+            Oops, your hex code is wrong. Check it.
+        </div>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Type your color here..." id="input">
+           <span class="input-group-btn">
+             <button class="btn button-default" id="goBtn">Go!</button>
+           </span>
+        </div>
+        <table id="result" class="table">
+
+        </table>
+    </div>
 </body>
 </html>
